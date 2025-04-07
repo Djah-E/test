@@ -1,0 +1,13 @@
+stages:
+  - build
+  - test
+
+build_job:
+  stage: build
+  script:
+    - echo "Compilation du projet..."
+
+test_job:
+  stage: test
+  script:
+    - echo "Lancement des tests..."
